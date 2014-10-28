@@ -3,7 +3,8 @@
     "description": "A eventsourced version of Essence that integrates with Estoria persistence",
     "require": {
         "nortuni/essence.eventsourced": "dev-master",
-        "nortuni/estoria": "dev-master"
+        "nortuni/estoria": "dev-master",
+        "rhumsaa/uuid": "~2.7@dev"
     },
     "license": "MIT",
     "autoload": {
