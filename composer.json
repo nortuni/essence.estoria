@@ -1,0 +1,21 @@
+{
+    "name": "nortuni/essence.estoria",
+    "description": "A eventsourced version of Essence that integrates with Estoria persistence",
+    "require": {
+        "nortuni/essence.eventsourced": "dev-master",
+        "nortuni/estoria": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nortuni\\Essence\\EventSourced\\Estoria\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stijn Vannieuwenhuyse",
+            "email": "stijn@vannieuwenhuyse.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
